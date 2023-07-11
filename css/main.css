@@ -9,6 +9,16 @@ main {
   margin-top: 2em;
 }
 
+.corpo__div__imagem{
+    /*
+    border-start-start-radius: 40%;
+    border-start-end-radius: 40%;
+    border-end-end-radius:40% ;
+    border-end-start-radius: 40%;*/
+    border-radius: 40%;
+    width: 25rem;
+}
+
 .corpo__div__div {
   display: flex;
   flex-direction: column;
@@ -67,3 +77,9 @@ main {
 }
 
 /*-----------------------------------------------------------------------------*/
+
+
+.corpo__div__div__front{
+
+    color: var(--color-purple);
+}
