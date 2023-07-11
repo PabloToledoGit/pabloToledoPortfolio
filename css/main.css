@@ -9,14 +9,15 @@ main {
   margin-top: 2em;
 }
 
-.corpo__div__imagem{
-    /*
+.corpo__div__imagem {
+  /*
     border-start-start-radius: 40%;
     border-start-end-radius: 40%;
     border-end-end-radius:40% ;
     border-end-start-radius: 40%;*/
-    border-radius: 40%;
-    width: 25rem;
+  border-radius: 50%;
+  width: 25rem;
+  /*border: 3px solid white;*/
 }
 
 .corpo__div__div {
@@ -78,8 +79,26 @@ main {
 
 /*-----------------------------------------------------------------------------*/
 
+.corpo__div__div__front {
+  color: var(--color-purple);
+}
 
-.corpo__div__div__front{
+@media (max-width: 900px) {
 
-    color: var(--color-purple);
+    main{
+
+        padding: 1.5rem;
+    }
+
+    .corpo__div{
+
+        margin-top: 10em;
+        flex-direction: column-reverse;
+        gap: 3em;
+        
+    }
+    .corpo__div__imagem{
+
+        width: 20rem;
+    }
 }
