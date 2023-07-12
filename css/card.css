@@ -1,5 +1,6 @@
 .card {
   background: transparent;
+  margin-bottom: 3em;
 }
 
 .card-body-bottom {
@@ -36,6 +37,25 @@
 .siteicon{
 
     width: 1.5em;
+}
+
+.card-title{
+
+  font-family: var(--font-header);
+  font-size: 14px;
+  color: gray;
+}
+
+.card-title-body{
+
+  color: white;
+  font-size: 18px;
+}
+
+.card-body-top{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
 }
 
 

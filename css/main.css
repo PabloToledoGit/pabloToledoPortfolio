@@ -84,6 +84,13 @@ main {
   color: var(--color-purple);
 }
 
+.projetos{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .projetos__div__titulo{
 
   display: flex;
