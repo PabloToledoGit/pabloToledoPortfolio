@@ -7,6 +7,7 @@ main {
   justify-content: space-around;
   align-items: center;
   margin-top: 2em;
+  margin-bottom: 10em;
 }
 
 .corpo__div__imagem {
@@ -83,6 +84,29 @@ main {
   color: var(--color-purple);
 }
 
+.projetos__div__titulo{
+
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+
+.projetos__titulo{
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 29px;
+  color: white;
+  font-family: var(--font-header);
+}
+
+.projetos__hashtag{
+
+  width: 1em;
+}
+
 @media (max-width: 900px) {
 
     main{
@@ -102,3 +126,5 @@ main {
         width: 20rem;
     }
 }
+
+
