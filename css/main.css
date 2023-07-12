@@ -2,6 +2,7 @@ main {
   padding: 0em 10em;
 }
 
+
 .corpo__div {
   display: flex;
   justify-content: space-around;
@@ -139,8 +140,37 @@ main {
 
       display: none;
     }
+
+    .typewriter{
+
+      font-size:1.2rem;
+    }
+
+    .corpo__div__div__paragrafo{
+
+      font-size: 1rem;
+    }
+
+    .navbar{
+
+      display: block;
+    }
+
+  
 }
 
 
 
 /*-----------------------------------------------------------------------------*/
+
+.consolepurple{
+
+  color: #c778dd;
+}
+
+.logyellow{
+
+  color: yellow;
+}
+
+
