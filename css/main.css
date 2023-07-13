@@ -124,4 +124,10 @@ main {
   color: yellow;
 }
 
+#sec2{
+
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 3em;
+}
 
