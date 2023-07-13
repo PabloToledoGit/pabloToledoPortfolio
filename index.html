@@ -15,11 +15,62 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/card.css" />
     <link rel="stylesheet" href="/css/keyframe.css" />
-    <link rel="stylesheet" href="/css/menuhamburguer.css" />
-    <link rel="stylesheet" href="/css/mediaquerys.css">
-    <link rel="icon" href="/img/vector.png">
+    <link rel="stylesheet" href="/css/navhamburguer.css" />
+    <link rel="stylesheet" href="/css/mediaquerys.css" />
+    <link rel="icon" href="/img/vector.png" />
     <title>PabloToledo</title>
   </head>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end text-bg-dark"
+        tabindex="-1"
+        id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5
+            class="offcanvas-title"
+            id="offcanvasDarkNavbarLabel top__nav__links__botao"
+          >
+            Menu
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a
+                class="nav-link active top__nav__links__botao"
+                aria-current="page"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SKILLS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <body>
     <header class="top">
       <nav class="top__nav">
@@ -297,10 +348,10 @@
         <div class="projetos__div__titulo" id="sec2">
           <h1 class="projetos__titulo">
             skills<img
-            class="projetos__hashtag"
-            src="/img/hashtag.png"
-            alt="#"
-          />
+              class="projetos__hashtag"
+              src="/img/hashtag.png"
+              alt="#"
+            />
           </h1>
           <img class="linharoxa" src="/img/linharoxa.svg" alt="linha roxa" />
         </div>
