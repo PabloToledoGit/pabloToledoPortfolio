@@ -1,0 +1,53 @@
+/*media querys ------------------------------------------------------------------*/
+
+@media (max-width: 900px) {
+
+    main{
+
+        padding: 1.5rem;
+    }
+
+    .corpo__div{
+
+        margin-top: 10em;
+        flex-direction: column-reverse;
+        gap: 3em;
+        
+    }
+    .corpo__div__imagem{
+
+        width: 20rem;
+    }
+
+    .linharoxa{
+
+      display: none;
+    }
+
+    .typewriter{
+
+      font-size:1.2rem;
+    }
+
+    .corpo__div__div__paragrafo{
+
+      font-size: 1rem;
+    }
+
+    .navbar{
+
+      display: block;
+    }
+
+  
+}
+
+@media (max-width:500px){
+
+  .corpo__div__div{
+
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*-----------------------------------------------------------------------------*/
