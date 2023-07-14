@@ -49,5 +49,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .quadradinhos{
+
+    display: none;
+  }
 }
 /*-----------------------------------------------------------------------------*/

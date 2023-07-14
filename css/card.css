@@ -3,6 +3,16 @@
   margin-bottom: 3em;
 }
 
+.card-body{
+
+  background: transparent;
+}
+
+.list-group, .list-group-item{
+
+  background: transparent;
+}
+
 .card-body-bottom {
   display: flex;
   gap: 1em;

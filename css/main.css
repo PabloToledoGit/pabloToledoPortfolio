@@ -128,10 +128,15 @@ main {
 
   display: flex;
   margin-top: 3em;
+  flex-direction: row;
 }
 
 .quadradinhos{
-
-  margin-bottom: 5em;
   margin-left: 4em;
 }
+
+.skills{
+
+  display: flex;
+}
+
