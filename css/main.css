@@ -140,3 +140,37 @@ main {
   display: flex;
 }
 
+.div__contatos{
+
+  display: flex;
+  gap: 30rem;
+  
+
+}
+
+.div__contatos__paragrafo{
+
+  width: 20rem;
+  font-size: 1.2rem;
+  color: gray;
+  font-family: var(--font-header);
+
+}
+
+.div__contatos__contatos{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 2rem;
+  margin-bottom: 10rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.div__contatos__contatos__titulo{
+
+  color: white;
+  font-family: var(--font-header);
+}
+
+
