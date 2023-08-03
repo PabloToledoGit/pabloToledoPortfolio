@@ -2,7 +2,6 @@ main {
   padding: 0em 10em;
 }
 
-
 .corpo__div {
   display: flex;
   justify-content: space-around;
@@ -85,23 +84,20 @@ main {
   color: var(--color-purple);
 }
 
-.projetos{
-
+.projetos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.projetos__div__titulo{
-
+.projetos__div__titulo {
   display: flex;
   align-items: center;
   gap: 1em;
   margin-bottom: 5em;
 }
 
-.projetos__titulo{
-
+.projetos__titulo {
   display: flex;
   align-items: center;
   text-align: center;
@@ -110,54 +106,44 @@ main {
   font-family: var(--font-header);
 }
 
-.projetos__hashtag{
-
+.projetos__hashtag {
   width: 1em;
 }
-.consolepurple{
-
+.consolepurple {
   color: #c778dd;
 }
 
-.logyellow{
-
+.logyellow {
   color: yellow;
 }
 
-#sec2{
-
+#sec2 {
   display: flex;
   margin-top: 3em;
   flex-direction: row;
 }
 
-.quadradinhos{
+.quadradinhos {
   margin-left: 4em;
 }
 
-.skills{
-
+.skills {
   display: flex;
 }
 
-.div__contatos{
-
+.div__contatos {
   display: flex;
   gap: 30rem;
-  
-
 }
 
-.div__contatos__paragrafo{
-
+.div__contatos__paragrafo {
   width: 20rem;
   font-size: 1.2rem;
   color: gray;
   font-family: var(--font-header);
-
 }
 
-.div__contatos__contatos{
+.div__contatos__contatos {
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
@@ -167,10 +153,7 @@ main {
   align-items: center;
 }
 
-.div__contatos__contatos__titulo{
-
+.div__contatos__contatos__titulo {
   color: white;
   font-family: var(--font-header);
 }
-
-

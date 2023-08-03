@@ -2,7 +2,7 @@
 
 :root {
   --font-header: "Fira Code", monospace;
-  --color-purple:#C778DD;
+  --color-purple: #c778dd;
 }
 
 .top {
@@ -40,22 +40,17 @@
   font-family: var(--font-header);
 }
 
-.top__nav__links__botao:hover{
-
-    color: white;
-    text-shadow: 0 0 0.100em rgba(0, 0, 0, 0.5), 0 0 0.80em currentColor;
-    
+.top__nav__links__botao:hover {
+  color: white;
+  text-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0.8em currentColor;
 }
 
 .top__nav__links__icon {
   width: 14px;
 }
 
-@media (max-width:900px){
-
-  .top{
-
+@media (max-width: 900px) {
+  .top {
     display: none;
   }
 }
-
